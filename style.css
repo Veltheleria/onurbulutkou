@@ -1,0 +1,54 @@
+<style>
+        /* Ana stil */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: darkslategrey;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+        
+        /* Sekme stilleri */
+        .tabs {
+            display: flex;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            background-color: #f1f1f1;
+            margin-right: 5px;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        .active-tab {
+            background-color: white;
+            font-weight: bold;
+            border-bottom: 1px solid white;
+        }
+        .active-content {
+            display: block;
+        }
+    </style>@charset "utf-8";
+/* CSS Document */
+
